@@ -1,0 +1,26 @@
+.formulaire{
+	margin : 0 auto;
+	margin-top: -2em;
+	background-color:rgba(255,0,0,0.5);
+	max-width : 17em;
+	width : 100%;
+	padding-bottom: 1em;
+	color: white;
+}
+.formulaire h1{
+	margin: 0 auto;
+	font-family: 'intro';
+	background-color: #F0F0F0;
+	padding: 0.5em;
+	font-size : 1.3em;
+	text-align : center;
+	margin-bottom: 0.7em;
+	color: #422918;
+	text-shadow: 2px 2px 0px white; 
+}
+.formulaire .submit{
+	margin-bottom : 1em;
+}
+.formulaire .form{
+	margin-left: 1em;
+}

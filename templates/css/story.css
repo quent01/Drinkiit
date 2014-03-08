@@ -1,0 +1,98 @@
+/* fichier CSS pour la partie story de index.php */
+
+/*Font pour la date pour la partie "our story" titre*/
+@font-face{
+	font-family: 'candyround';
+	src : url('../../fonts/candyround/Candrbl_.ttf')format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+#story{
+	width: 48em;
+	margin-left: 2em;
+	padding-top: 2em;
+	/*display: inline-block;*/
+	float: left;
+	margin-bottom: 5em;
+	margin-right: 2em;
+	color: #422918;
+	/* border: solid 1px red; */
+}
+#story img{
+	float: left;
+	margin-left: 12%;
+	width: 23%;
+	/*border: solid 1px red;*/
+}
+#story article{
+	margin-bottom: -2.5em;
+}
+/*cercle contenant l'année*/
+#story .year {
+	margin-right: auto;
+	margin-left: auto;
+	width:3em;
+	height:3em;
+	border-radius:1.5em;
+	font-size:25px;
+	color:#33b199;
+	line-height:3em;
+	text-align:center;
+	font-family: 'candyround';
+	background:#422918;
+	display: block;
+	/*border : solid 1px red;*/
+}
+.heading{
+	/*border: solid 1px blue;*/
+}
+/*ajout de la banner derrière le titre*/
+.heading h2{
+	/*background*/
+	background-image: url('../../img/banner_year_h1.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	height:2em;
+	width: 18em;
+	/*font*/
+	font-family: 'candyround';
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	line-height: 2em;
+	font-size: 20px;
+	margin-left: -0.6em;
+	margin-bottom: 0.3em;
+	/*display: inline-block;*/
+	/*border: solid 1px red;*/
+}
+#story .float_right{
+	margin-right: 0.5%;
+	/*border: solid 1px red;*/
+	width: 21em;
+	margin-top: -3.7em;
+}
+
+#story .float_left{
+	margin-left: 0.5%;
+	/*border: solid 1px red;*/
+	width: 21em;
+	margin-top: -3.7em;
+}
+
+.float_right{
+	float : right;
+} 
+.float_left{
+	float : left;
+}
+
+#story p{
+	/*margin-top: 1em;*/
+	width: 95%;
+	margin: auto;
+	font-size: 13px;
+}
+.spacer{
+	clear: both;
+}

@@ -1,0 +1,87 @@
+/* 	Fichier CSS pour le dossier "erreurs" 
+	le dossier erreur comprend les fichiers qui affichent les différentes erreurs
+	pour l'instant il n'y a que le fichier 404.html
+*/
+@font-face{
+	font-family: 'intro';
+	src : url('../fonts/intro.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'lovelo';
+	src : url('../../fonts/loveloblack.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: '28dayslater';
+	src : url('../../fonts/28 Days Later.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face{
+	font-family: 'nosifer';
+	src : url('../../fonts/NosiferCaps-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+body{
+	background-color: #515251;
+
+}
+table{
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 3em;
+}
+td{
+	/* border: solid 1px red; */
+}
+#maneater{
+	width: 30em;
+	/* width: 100%; */
+	text-align: center;
+	/* border: solid 1px red; */
+	vertical-align: middle;
+}
+#maneater img{
+	max-width: 25em;
+	width: 100%;
+}
+#message{
+	text-align: center;
+	vertical-align: middle;	
+}
+
+#erreur{
+	color : white;
+	font-size : 800%;
+	font-family: 'nosifer';
+	padding-top: 0.5em;
+}
+
+#phrase{
+	font-family: '28dayslater';
+	color : #F78D35;
+	font-size: 300%;
+	padding-bottom: 1em;
+}
+#logo{
+	background : rgba(255,255,255,0.2);
+	margin-bottom: 2em;
+	padding : 2em 1em 2em 1em;
+	max-width : 10em;
+	width :100%;
+	margin-top: 1em;
+	border-radius: 100%; 
+	border: solid 5px rgba(255,255,255,0.2);
+	transition-duration : 1s;
+	
+}
+#logo:hover{
+	border: solid 5px #F78D35;
+	transform : rotate(360deg);
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+}
